@@ -1,0 +1,51 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  background-color: hsl(34, 80%, 74%);
+  color: hsl(30, 9%, 15%);
+}
+
+h2 {
+  background-color: hsl(43, 72%, 82%);
+}
+
+p {
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+}
+
+#intro {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-top: 1px solid hsl(0, 0%, 20%);
+}
+
+h3,
+ul,
+ol {
+  text-align: left;
+}
+
+img {
+  height: auto;
+  width: 300px;
+  border: 2px solid hsl(0, 0%, 20%);
+  border-radius: 10px;
+}
+
+.button {
+  display: inline-block;
+  /* ^ Sets the display type of the element to be an inline-block.
+    This means that the element will be treated like an inline element,
+    but can have width and height properties,
+    and can be aligned vertically and horizontally. */
+
+  padding: 10px 20px;
+  /* Space between the element's content and its border */
+  background-color: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+  /* Removes the underline from the hyperlink */
+  border-radius: 5px;
+  /* Rounds the corners of the button */
+}
