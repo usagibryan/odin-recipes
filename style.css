@@ -72,3 +72,8 @@ img {
   color: hsl(0, 0%, 100%);
   text-decoration: none;
 }
+
+.button:hover {
+  color: hsl(0, 0%, 20%);
+  background-color: hsl(0, 0%, 100%);
+}
