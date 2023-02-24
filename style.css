@@ -5,19 +5,15 @@ body {
   color: hsl(30, 9%, 15%);
 }
 
-h2 {
+h3 {
   background-color: hsl(43, 72%, 82%);
+  padding: 8px;
+  border-radius: 10px
 }
 
 p {
   font-size: 18px;
   font-family: Arial, sans-serif;
-}
-
-#intro {
-  padding: 10px;
-  margin-bottom: 20px;
-  border-top: 1px solid hsl(0, 0%, 20%);
 }
 
 h3,
@@ -28,9 +24,29 @@ ol {
 
 img {
   height: auto;
-  width: 300px;
+  max-width: 400px;
   border: 2px solid hsl(0, 0%, 20%);
   border-radius: 10px;
+  display: block;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.lists {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.description {
+  font-size: 18px;
+  width: 500px;
+  margin: 1em auto;
+  border-style: dashed;
+  border-radius: 10px;
+  padding: 1em;
+  width: 500px;
+  background-color: hsl(43, 72%, 82%);
 }
 
 .button {
@@ -48,4 +64,11 @@ img {
   /* Removes the underline from the hyperlink */
   border-radius: 5px;
   /* Rounds the corners of the button */
+  margin: 0.5em;
+}
+
+.button:link,
+.button:visited {
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
 }
